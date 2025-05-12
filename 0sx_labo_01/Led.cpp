@@ -13,7 +13,7 @@ Led::Led(int ledPin)
   _blinkRate = 750;
   _previousTimeBlink = 0;
   _blinkCount = 0;
-  _ledState = LOW;
+  _ledState = HIGH;
 
   _firstTimeFade = true;
   _fadeRate = 40;
